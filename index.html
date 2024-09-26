@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pagina</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
@@ -21,8 +22,21 @@
         <section>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/t9-cMiEDNyk?si=CGuSAt6Ubyi2JXaj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
+        <form action="https://formspree.io/f/mzzpnzjj" method="POST">
+            <div>
+                <label for="nombre">Ingrese su nombre</label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+            <div>
+                <label for="correo">Ingrese su correo</label>
+                <input type="email" name="correo" id="correo">
+            </div>
+            <div>
+                <label for="mensaje">Dejenos su mensaje</label>
+                <textarea name="msj" id="mensaje" placeholder="Dejenos su mensaje" maxlength="300" ></textarea>
+            </div>
+            <button type="submit">Enviar!</button>
+        </form>
     </main>
 </body>
 </html>
-
-
