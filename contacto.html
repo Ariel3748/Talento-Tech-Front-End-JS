@@ -25,7 +25,7 @@
           <a class="background-transparent" href="./contacto.html">Contacto</a>
         </li>
         <li class="background-transparent">
-          <a class="background-transparent" href="./productos.html">Productos</a>
+          <a class="background-transparent" href="productos.html">Productos</a>
         </li>
         <li class="background-transparent">
           <a class="background-transparent" href="resenas.html">Reseñas</a>
@@ -33,30 +33,33 @@
       </ul>
     </nav>
     <main>
-      <div id="quienes-somos">
-        <h2>¿Quienes Somos?</h2>
-        <p>
-          En The LongShot, nos apasiona ayudar a nuestros
-          clientes a encontrar el vehículo ideal para sus necesidades. Con años
-          de experiencia en el mercado, ofrecemos una amplia selección de autos
-          nuevos y usados de las mejores marcas, garantizando calidad, confianza
-          y un servicio personalizado. Nuestro equipo de expertos está aquí para
-          asesorarte en cada paso, desde la elección hasta la financiación, para
-          que puedas disfrutar de una compra segura y satisfactoria.
-        </p>
-      </div>
-      <div id="video">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/t9-cMiEDNyk?si=CGuSAt6Ubyi2JXaj"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
+      <form
+        class="formulario-contacto"
+        action="https://formspree.io/f/mzzpnzjj"
+        method="POST"
+      >
+        <div class="formulario-contacto">
+          <label for="nombre">Ingrese su nombre</label>
+          <input type="text" name="nombre" id="nombre" />
+        </div>
+        <div class="formulario-contacto">
+          <label for="correo">Ingrese su correo</label>
+          <input type="email" name="correo" id="correo" />
+        </div>
+        <div class="formulario-contacto">
+          <label for="mensaje">Dejenos su mensaje</label>
+          <textarea
+            class="formulario-contacto"
+            name="msj"
+            id="mensaje"
+            placeholder="Dejenos su mensaje"
+            maxlength="300"
+          ></textarea>
+        </div>
+        <button class="formulario-contacto" id="boton-enviar" type="submit">
+          Enviar!
+        </button>
+      </form>
     </main>
     <footer>
       <p class="background-transparent">Ariel Oliva</p>

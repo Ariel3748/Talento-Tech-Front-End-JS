@@ -1,0 +1,168 @@
+* {
+    background-color: rgba(191, 247, 241, 0.26);
+    color: black;
+    font-family: agencyFB,MS PGothic,Verdana,Helvetica,sans-serif;
+    border-radius: 8px;
+}
+
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url("../assets/BebasNeue.ttf") format("truetype");
+  }
+
+header{
+    background-color: darkgray;
+}
+
+header *{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1{
+    font-family: BebasNeue, MS PGothic, Verdana,Helvetica,sans-serif;
+    font-size: 75px;
+    letter-spacing: 25px;
+}
+
+#quienes-somos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    font-family: BebasNeue, MS PGothic, Verdana,Helvetica,sans-serif;
+    font-size: 45px;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.background-transparent, #productos article ul li, #productos article h3, #productos article ul, h2, p{
+    background-color: transparent;
+}
+
+
+nav ul {
+    background-color: rgba(18, 18, 114, 0.536);
+}
+
+nav ul li a:hover, #boton-enviar:hover {
+    color: blueviolet;
+}
+
+nav *{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+}
+
+#video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formulario-contacto{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#boton-enviar, .pointer{
+    margin: 2px solid black;
+    cursor: pointer;
+}
+
+footer{
+    background-color:#D90368;
+}
+
+#productos article img, .img-article{
+    width: 300px;
+    height: 200px;
+}
+
+
+#productos article, .resena{
+    border: 2px solid black;
+    width: 20%;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(250, 235, 215, 0.458);
+    margin: 10px 5px;
+    transition: 0.3s;
+   
+}
+
+
+#productos article ul li{
+    list-style: none;
+    text-align: start;
+    
+}
+
+#productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+
+
+#productos article:hover, .resena:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 650px ) {
+    header, header #nav-bar, footer{
+        width: 100vw;
+    }
+    header *{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        background-color: #D90368;
+    }
+    header img{
+        visibility: hidden;
+    }
+
+    h1{
+        font-size: 50px;
+        letter-spacing: auto;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
