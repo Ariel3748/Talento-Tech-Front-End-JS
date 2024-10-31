@@ -108,7 +108,7 @@ footer{
 
 #productos article, .resena{
     border: 2px solid black;
-    width: 20%;
+    width: 75%;
     padding: 30px 20px;
     text-align: center;
     font-size: 18px;
@@ -137,6 +137,38 @@ footer{
 #productos article:hover, .resena:hover {
     transform: scale(1.05);
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+#seccion-resena{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#resena-indio{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#resena-angel{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#resena-moria{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#resena-esteban{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+#resena-pampita{
+    grid-column: -2/-1;
+    grid-row: -2/-1;
 }
 
 @media (max-width: 650px ) {
