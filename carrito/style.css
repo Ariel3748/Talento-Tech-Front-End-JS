@@ -1,0 +1,15 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container-productos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 20px;
+}
+
+article{
+    border: 2px solid black;
+    width: 20vw;
+    height: auto;
+}
