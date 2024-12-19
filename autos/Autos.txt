@@ -1,0 +1,123 @@
+[
+    {
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "año": 2018,
+      "kilometraje": 45000,
+      "estado": "Usado",
+      "imagen": "https://example.com/images/toyota-corolla-2018.jpg"
+    },
+    {
+      "marca": "Honda",
+      "modelo": "Civic",
+      "año": 2020,
+      "kilometraje": 30000,
+      "estado": "Usado",
+      "imagen": "https://example.com/images/honda-civic-2020.jpg"
+    },
+    {
+      "marca": "Ford",
+      "modelo": "Focus",
+      "año": 2017,
+      "kilometraje": 55000,
+      "estado": "Usado",
+      "imagen": "https://example.com/images/ford-focus-2017.jpg"
+    },
+    {
+      "marca": "Chevrolet",
+      "modelo": "Onix",
+      "año": 2019,
+      "kilometraje": 32000,
+      "estado": "Usado",
+      "imagen": "https://example.com/images/chevrolet-onix-2019.jpg"
+    },
+    {
+      "marca": "Volkswagen",
+      "modelo": "Golf",
+      "año": 2021,
+      "kilometraje": 15000,
+      "estado": "Nuevo",
+      "imagen": "https://example.com/images/volkswagen-golf-2021.jpg"
+    },
+    {
+      "marca": "Nissan",
+      "modelo": "Versa",
+      "año": 2018,
+      "kilometraje": 40000,
+      "estado": "Usado",
+      "imagen": "https://example.com/images/nissan-versa-2018.jpg"
+    },
+    {
+      "marca": "Hyundai",
+      "modelo": "Elantra",
+      "año": 2020,
+      "kilometraje": 20000,
+      "estado": "Usado",
+      "imagen": "https://example.com/images/hyundai-elantra-2020.jpg"
+    },
+    {
+      "marca": "Kia",
+      "modelo": "Rio",
+      "año": 2019,
+      "kilometraje": 35000,
+      "estado": "Usado",
+      "imagen": "https://example.com/images/kia-rio-2019.jpg"
+    },
+    {
+      "marca": "Renault",
+      "modelo": "Duster",
+      "año": 2018,
+      "kilometraje": 50000,
+      "estado": "Usado",
+      "imagen": "https://example.com/images/renault-duster-2018.jpg"
+    },
+    {
+      "marca": "Mazda",
+      "modelo": "3",
+      "año": 2021,
+      "kilometraje": 10000,
+      "estado": "Nuevo",
+      "imagen": "https://example.com/images/mazda-3-2021.jpg"
+    },
+    {
+      "marca": "Subaru",
+      "modelo": "Impreza",
+      "año": 2019,
+      "kilometraje": 27000,
+      "estado": "Usado",
+      "imagen": "https://example.com/images/subaru-impreza-2019.jpg"
+    },
+    {
+      "marca": "BMW",
+      "modelo": "Serie 3",
+      "año": 2020,
+      "kilometraje": 15000,
+      "estado": "Usado",
+      "imagen": "https://example.com/images/bmw-serie3-2020.jpg"
+    },
+    {
+      "marca": "Mercedes-Benz",
+      "modelo": "Clase C",
+      "año": 2021,
+      "kilometraje": 12000,
+      "estado": "Nuevo",
+      "imagen": "https://example.com/images/mercedes-benz-clasec-2021.jpg"
+    },
+    {
+      "marca": "Audi",
+      "modelo": "A4",
+      "año": 2019,
+      "kilometraje": 30000,
+      "estado": "Usado",
+      "imagen": "https://example.com/images/audi-a4-2019.jpg"
+    },
+    {
+      "marca": "Peugeot",
+      "modelo": "208",
+      "año": 2020,
+      "kilometraje": 25000,
+      "estado": "Usado",
+      "imagen": "https://example.com/images/peugeot-208-2020.jpg"
+    }
+  ]
+
