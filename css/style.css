@@ -184,6 +184,35 @@ footer{
     grid-row: -2/-1;
 }
 
+table {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    border-collapse: collapse; /* Elimina los espacios entre bordes */
+    margin: 20px 0; /* Espaciado superior e inferior */
+    font-size: 16px; /* Tamaño de fuente */
+    text-align: left; /* Texto alineado a la izquierda */
+}
+
+/* Bordes de las celdas */
+th, td {
+    border: 1px solid #ddd; /* Bordes sutiles */
+    padding: 8px; /* Espaciado interno */
+}
+
+/* Fondo gris claro para el encabezado */
+th {
+    background-color: #f4f4f4; /* Fondo gris claro */
+    font-weight: bold; /* Texto en negrita */
+}
+
+tr{
+    background-color: rgba(18, 18, 114, 0.536);
+}
+
+/* Centrando el contenido de la tabla */
+td, th {
+    text-align: center; /* Centra el texto */
+}
+
 @media (max-width: 650px ) {
     header, header #nav-bar, footer{
         width: 100vw;

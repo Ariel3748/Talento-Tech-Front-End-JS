@@ -25,7 +25,9 @@
           <a class="background-transparent" href="./contacto.html">Contacto</a>
         </li>
         <li class="background-transparent">
-          <a class="background-transparent" href="./productos.html">Productos</a>
+          <a class="background-transparent" href="./productos.html"
+            >Productos</a
+          >
         </li>
         <li class="background-transparent">
           <a class="background-transparent" href="resenas.html">Reseñas</a>
@@ -36,38 +38,27 @@
       </ul>
     </nav>
     <main>
-      <form
-        class="formulario-contacto"
-        action="https://formspree.io/f/mzzpnzjj"
-        method="POST"
-      >
-        <div class="formulario-contacto">
-          <label for="nombre">Ingrese su nombre</label>
-          <input type="text" name="nombre" id="nombre" />
-        </div>
-        <div class="formulario-contacto">
-          <label for="correo">Ingrese su correo</label>
-          <input type="email" name="correo" id="correo" />
-        </div>
-        <div class="formulario-contacto">
-          <label for="mensaje">Dejenos su mensaje</label>
-          <textarea
-            class="formulario-contacto"
-            name="msj"
-            id="mensaje"
-            placeholder="Dejenos su mensaje"
-            maxlength="300"
-          ></textarea>
-        </div>
-        <button class="formulario-contacto" id="boton-enviar" type="submit">
-          Enviar!
-        </button>
-      </form>
+        <h2>Carrito</h2>
+            <table >
+                <thead>
+                    <tr>
+                        <th>Marca</th>
+                        <th>Modelo</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                    </tr>
+                    <tbody id="items">
+                </tbody>
+                </thead>
+            </table>
     </main>
     <footer>
       <p class="background-transparent">Ariel Oliva</p>
       <p class="background-transparent">42592078</p>
       <p class="background-transparent">Talento Tech Pre-entrega</p>
     </footer>
+    <script src="main.js"></script>
+    <script src="mostrarCarrito.js"></script>
   </body>
 </html>
+
