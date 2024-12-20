@@ -91,18 +91,13 @@ form {
 
 }
 
-#boton-enviar, .pointer{
-    margin: 2px solid black;
-    cursor: pointer;
-}
 
 footer{
     background-color:#D90368;
 }
 
-#productos article img, .img-article{
-    width: 300px;
-    height: 200px;
+.img-article{
+    width: 100%;
 }
 
 #productos article{
@@ -152,6 +147,10 @@ footer{
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
 }
 
+.imagen_auto{
+    width: 100%
+}
+
 #seccion-resena{
 
     display: grid;
@@ -185,33 +184,76 @@ footer{
 }
 
 table {
-    width: 100%; /* Ocupa todo el ancho disponible */
-    border-collapse: collapse; /* Elimina los espacios entre bordes */
-    margin: 20px 0; /* Espaciado superior e inferior */
-    font-size: 16px; /* Tamaño de fuente */
-    text-align: left; /* Texto alineado a la izquierda */
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+    font-size: 16px; 
+    text-align: left; 
 }
 
-/* Bordes de las celdas */
+
 th, td {
-    border: 1px solid #ddd; /* Bordes sutiles */
-    padding: 8px; /* Espaciado interno */
+    border: 1px solid #ddd; 
+    padding: 8px; 
 }
 
-/* Fondo gris claro para el encabezado */
+
 th {
-    background-color: #f4f4f4; /* Fondo gris claro */
-    font-weight: bold; /* Texto en negrita */
+    background-color: #f4f4f4; 
+    font-weight: bold; 
 }
 
 tr{
     background-color: rgba(18, 18, 114, 0.536);
 }
 
-/* Centrando el contenido de la tabla */
+
 td, th {
-    text-align: center; /* Centra el texto */
+    text-align: center; 
 }
+
+.Agregar_Item, .pointer, #boton-enviar{
+    background-color: #ffffff; 
+    color: #333333; 
+    border: 2px solid #333333; 
+    border-radius: 5px; 
+    padding: 10px 15px;
+    font-size: 14px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+
+.Agregar_Item:hover, .pointer:hover,#boton-enviar:hover {
+    background-color: #333333; 
+    color: #ffffff; 
+}
+
+.Agregar_Item:active, .pointer:active {
+    background-color: #555555; 
+    border-color: #555555; 
+}
+
+.Sumar_Item{
+    background-color: #28a745; 
+    color: #ffffff; 
+    border: none; 
+    font-weight: bold; 
+    cursor: pointer;
+
+}
+
+.Restar_Item{
+    background-color: #dc3545;
+    color: #ffffff; 
+    border: none; 
+    font-weight: bold; 
+    cursor: pointer;
+}
+
+
+
+
 
 @media (max-width: 650px ) {
     header, header #nav-bar, footer{
@@ -238,5 +280,41 @@ td, th {
         display: flex;
         flex-direction: column;
     }
-}
 
+    #productos article ul li{
+        list-style: none;
+        text-align: start;
+        
+    }
+    
+    #productos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-flow: column;
+    }
+
+    #productos article{
+        border: 2px solid black;
+        width: 90%;
+        padding: 30px 20px;
+        text-align: center;
+        font-size: 18px;
+        background-color: rgba(250, 235, 215, 0.458);
+        margin: 10px 5px;
+        transition: 0.3s;
+       
+    
+    }
+
+
+    #seccion-resena{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-flow: column;
+        
+
+    }
+
+}

@@ -6,6 +6,7 @@ function mostrarProductos(productosAmostrar){
         <img
           src="${producto.imagen}"
           alt="${producto.marca} ${producto.modelo}"
+          class="imagen_auto"
         />
         <h3>${producto.marca} ${producto.modelo}</h3>
         <ul>
@@ -45,6 +46,7 @@ function filtroDatosProducto(producto){
   return(productoFiltrado)
 }
 
+//Muestro los productos desde el json
 document.addEventListener("DOMContentLoaded",traerDatosJSON("autos/Autos.txt"));
 
 
@@ -62,6 +64,8 @@ function agregarAlCarrito(elementoAagregar){
   else(carrito.push(elementoAagregar))
 }
 
+
+//Funcionalidad de agregar o restar al carrito
 document.addEventListener("click", (event) => {
   if(event.target.classList.contains("Sumar_Item")){
     const productoClickeado = event.target.closest("tr").dataset.id; 
@@ -87,6 +91,8 @@ document.addEventListener("click", (event) => {
 
 })
 
+
+//Agrega al carrito el elemento al hacer vlic en "Agregar Item"
 fetch("autos/Autos.txt")
   .then(respuesta => (respuesta.json()))
   .then((datos)=> (document.addEventListener("click", (event) =>{
@@ -120,7 +126,7 @@ function actualizarCarrito(carrito){
             <td>${item.marca}</td>
             <td>${item.modelo}</td>
             <td>${item.precio}</td>
-            <td><button class = "Sumar_Item" >Agregar</button>${item.cantidad}<button class = "Restar_Item">Quitar</button></td>    
+            <td><button class = "Sumar_Item" >+</button>${item.cantidad}<button class = "Restar_Item">-</button></td>    
         `
         const items = document.querySelector("#items")
         items.innerHTML += htmlcarrito;
@@ -129,5 +135,7 @@ function actualizarCarrito(carrito){
 
 }
 
+
+//Actualiza el carrito al cargar la pagina
 addEventListener("DOMContentLoaded",actualizarCarrito(carrito))
 
