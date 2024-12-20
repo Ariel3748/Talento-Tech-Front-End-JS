@@ -6,7 +6,7 @@
     "año": 2018,
     "kilometraje": 45000,
     "estado": "Usado",
-    "imagen": "https://example.com/images/toyota-corolla-2018.jpg",
+    "imagen": "https://media.toyota.com.ar/b90e14a0-dca9-410b-a2e9-ffd399d5edd1.png",
     "precio": 18000
   },
   {
@@ -16,7 +16,7 @@
     "año": 2020,
     "kilometraje": 30000,
     "estado": "Usado",
-    "imagen": "https://example.com/images/honda-civic-2020.jpg",
+    "imagen": "https://www.honda.com.ar/img/novedades/135/f1.jpg",
     "precio": 22000
   },
   {
@@ -26,7 +26,7 @@
     "año": 2017,
     "kilometraje": 60000,
     "estado": "Usado",
-    "imagen": "https://example.com/images/ford-focus-2017.jpg",
+    "imagen": "https://www.ford.com.ar/content/ford/ar/es_ar/home/posventa/mantenimiento-garantia/focus-picker/nuevo-focus/jcr:content/par/billboard_1913210771/imageComponent/image.imgs.full.high.jpg",
     "precio": 15000
   },
   {
@@ -36,7 +36,7 @@
     "año": 2019,
     "kilometraje": 40000,
     "estado": "Usado",
-    "imagen": "https://example.com/images/chevrolet-cruze-2019.jpg",
+    "imagen": "https://assets-cdn.static-gm.com/Assets/4094fc05-4ebc-4a4e-8773-5114c565dc62/9e5a55f2-7784-46d4-b751-c4372cc35214/v-1628648846/Desktop.webp",
     "precio": 20000
   },
   {
@@ -46,7 +46,7 @@
     "año": 2021,
     "kilometraje": 20000,
     "estado": "Usado",
-    "imagen": "https://example.com/images/nissan-sentra-2021.jpg",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvvJfIS1FQhfe6lsIG78JUudHejstWF5noGg&s",
     "precio": 23000
   },
   {
@@ -56,7 +56,7 @@
     "año": 2016,
     "kilometraje": 70000,
     "estado": "Usado",
-    "imagen": "https://example.com/images/volkswagen-golf-2016.jpg",
+    "imagen": "https://cdn-drivek-datak.motork.net/configurator-imgs/cars/es/Original/VOLKSWAGEN/GOLF/44236_HATCHBACK-5-DOORS/volkswagen-golf-front-view.jpg",
     "precio": 14000
   },
   {
@@ -66,7 +66,7 @@
     "año": 2019,
     "kilometraje": 35000,
     "estado": "Usado",
-    "imagen": "https://example.com/images/hyundai-elantra-2019.jpg",
+    "imagen": "https://dealerimages.dealereprocess.com/image/upload/c_limit,f_auto,fl_lossy,w_auto/v1/svp/dep/24hyundaielantralimited/hyundai_24elantralimitedivt_angularfront_amazongraymetallic",
     "precio": 19000
   },
   {
@@ -76,7 +76,7 @@
     "año": 2022,
     "kilometraje": 10000,
     "estado": "Nuevo",
-    "imagen": "https://example.com/images/kia-cerato-2022.jpg",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7UpCyn_mEhl9yzIdpFkhCdJr0JeVyPGQeQg&s",
     "precio": 25000
   },
   {
@@ -86,7 +86,7 @@
     "año": 2018,
     "kilometraje": 50000,
     "estado": "Usado",
-    "imagen": "https://example.com/images/mazda-3-2018.jpg",
+    "imagen": "https://d275w7g9tp258u.cloudfront.net/wp-content/uploads/2021/08/ALL-NEW-MAZDA-3-SPORT.jpg",
     "precio": 17000
   },
   {
@@ -96,7 +96,7 @@
     "año": 2020,
     "kilometraje": 25000,
     "estado": "Usado",
-    "imagen": "https://example.com/images/subaru-impreza-2020.jpg",
+    "imagen": "https://hips.hearstapps.com/hmg-prod/images/subaru-wrx-sti-type-r-subasta-1640893491.jpg",
     "precio": 21000
   },
   {
@@ -106,7 +106,7 @@
     "año": 2015,
     "kilometraje": 80000,
     "estado": "Usado",
-    "imagen": "https://example.com/images/bmw-serie3-2015.jpg",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq2Y82-S3ev3y9xnOrvz_CgaT3gfFrJmBgoA&s ",
     "precio": 28000
   },
   {
@@ -116,7 +116,7 @@
     "año": 2016,
     "kilometraje": 75000,
     "estado": "Usado",
-    "imagen": "https://example.com/images/mercedes-clasec-2016.jpg",
+    "imagen": "https://www.mercedes-benz.com.ar/content/dam/hq/passengercars/cars/c-class/c-class-saloon-w206-pi/modeloverview/06-2022/images/mercedes-benz-c-class-w206-modeloverview-696x392-06-2022.png",
     "precio": 30000
   },
   {
@@ -126,7 +126,7 @@
     "año": 2018,
     "kilometraje": 40000,
     "estado": "Usado",
-    "imagen": "https://example.com/images/audi-a4-2018.jpg",
+    "imagen": "https://cdn.motor1.com/images/mgl/Ao3Xx/s1/lanzamiento-audi-a4-2016.jpg",
     "precio": 32000
   },
   {
@@ -136,7 +136,7 @@
     "año": 2020,
     "kilometraje": 15000,
     "estado": "Usado",
-    "imagen": "https://example.com/images/peugeot-208-2020.jpg",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3DE-Lo9TvXUTqoj6-vpUfQOPUEUM3mXTuXw&s",
     "precio": 16000
   },
   {
@@ -146,7 +146,7 @@
     "año": 2017,
     "kilometraje": 55000,
     "estado": "Usado",
-    "imagen": "https://example.com/images/renault-clio-2017.jpg",
+    "imagen": "https://cdn.motor1.com/images/mgl/ZbvA2/s3/el-renault-clio-mio-se-dejara-de-fabricar-en-2016.jpg",
     "precio": 14000
   }
 ]
