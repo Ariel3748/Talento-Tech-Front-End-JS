@@ -139,3 +139,30 @@ function actualizarCarrito(carrito){
 //Actualiza el carrito al cargar la pagina
 addEventListener("DOMContentLoaded",actualizarCarrito(carrito))
 
+
+
+//Validacion de formulario
+
+const formularioNombre = document.querySelector("#nombre");
+const formularioCorreo = document.querySelector("#correo");
+const formularioMensaje = document.querySelector("#mensaje");
+const formulario = document.querySelector("#form-contacto");
+const elementosFormulario = [formularioCorreo,formularioMensaje,formularioNombre];
+
+function validarFormulario(listaDeInputs, event){
+listaDeInputs.forEach(element => {
+  if (element.value == ""){
+    alert("Complete el campo " + element.name);
+    event.preventDefault();
+  }
+  else{
+    console.log("campo valido " + element.name)
+  }
+});
+}
+
+formulario.addEventListener("submit",function(event){
+  validarFormulario(elementosFormulario, event)
+  }
+);
+
